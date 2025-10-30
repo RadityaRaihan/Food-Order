@@ -39,9 +39,10 @@ Perbaikan Stabilitas Tema: Koreksi krusial dilakukan pada AndroidManifest.xml un
 ⚙️ Cara Menjalankan Proyek
 Clone repositori ini:
 Bash
-git clone https://github.com/RadityaRaihan/Food-Order.git
-1. 2. Buka proyek menggunakan Android Studio.
+1. Clone repositori ini:Bash git clone https://github.com/RadityaRaihan/Food-Order.git
+2. Buka proyek menggunakan Android Studio.
 3. Jalankan aplikasi pada emulator atau perangkat Android fisik.
+
 
 
 

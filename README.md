@@ -13,23 +13,20 @@ Berikut adalah alur Activity utama yang disimulasikan dalam aplikasi ini:
 * Pemesanan: Mengetuk item menu pada RecyclerView akan langsung mengarahkan pengguna ke [OrderConfirmationActivity](https://github.com/RadityaRaihan/Food-Order/blob/main/assests/OrderConfirmationActivity.png) untuk memulai proses pemesanan.
 * Navigasi Utama: HomeActivity dilengkapi dengan BottomNavigationView yang fungsional, menavigasi ke Home, Order, dan Profile.
 * Checkout & Selesai: Alur simulasi dilanjutkan ke [ShippingAddressActivity](https://github.com/RadityaRaihan/Food-Order/blob/main/assests/ShippingAddressActivity.png) dan diakhiri di [SuccessActivity](https://github.com/RadityaRaihan/Food-Order/blob/main/assests/SuccessActivity.png) (berdasarkan deklarasi di AndroidManifest.xml).
-________________
 
 
-✨ Fitur Utama
-Fitur
-	Detail Implementasi
-	Daftar Menu Dinamis
-	Implementasi RecyclerView yang menampilkan daftar makanan lengkap dengan data gambar (R.drawable.), nama, deskripsi, dan harga yang bersumber dari fungsi dummy (generateDummyMenu).
-	Navigasi Kontras (UX)
-	BottomNavigationView dikonfigurasi dengan Color Selector (bottom_nav_color.xml) untuk memastikan ikon dan teks terlihat jelas dan kontras, memperbaiki masalah visibilitas ikon.
-	Navigasi Penuh
-	Tombol di AuthSelectionActivity berfungsi penuh. Navigasi Home, Order, dan Profile di Bottom Nav juga sudah dihubungkan ke Activity tujuan.
-	Penanganan Data Model
-	Penggunaan Data Class (Makanan.kt) untuk struktur data menu yang bersih dan mudah dikelola.
-	Perbaikan Tema
-	Koreksi pada AndroidManifest.xml dan file tema untuk mengatasi crash tema (Theme.AppCompat) saat berpindah Activity.
-	________________
+✨ Fitur dan Peningkatan Utama
+Proyek Aplikasi Pemesanan Makanan ini memiliki beberapa fitur inti dan perbaikan penting yang meningkatkan fungsionalitas dan pengalaman pengguna (UX):
+
+Daftar Menu Dinamis: Kami berhasil mengimplementasikan RecyclerView di HomeActivity. Fitur ini menampilkan daftar makanan yang lengkap dengan data dinamis, termasuk gambar (R.drawable.), nama, deskripsi, dan harga untuk setiap item menu.
+
+Navigasi Kontras (UX): Salah satu perbaikan utama adalah pada BottomNavigationView. Navigasi ini dikonfigurasi menggunakan Color Selector (bottom_nav_color.xml) untuk memastikan ikon dan teks terlihat jelas (kontras) di atas background yang gelap, sehingga meningkatkan aksesibilitas dan tampilan antarmuka pengguna.
+
+Navigasi Fungsional: Semua tombol navigasi utama telah dihubungkan. Tombol di AuthSelectionActivity (Login/Sign Up) berfungsi penuh, dan Item Selected Listener pada Bottom Nav (untuk Order/Profile) berhasil menavigasi pengguna ke Activity tujuan yang sesuai.
+
+Alur Pemesanan Dasar: Kami mengimplementasikan Click Listener pada setiap item menu di RecyclerView. Fitur ini berfungsi sebagai simulasi Order, yang akan langsung menavigasi pengguna ke OrderConfirmationActivity untuk melanjutkan proses pemesanan.
+
+Perbaikan Stabilitas Tema: Koreksi krusial dilakukan pada AndroidManifest.xml untuk mengatasi masalah crash tema (Theme.AppCompat) yang terjadi saat aplikasi mencoba berpindah antar Activity. Stabilitas aplikasi kini terjamin selama alur navigasi.
 
 
 🚀 Teknologi yang Digunakan
@@ -37,8 +34,6 @@ Fitur
 * UI Komponen: RecyclerView, BottomNavigationView, ConstraintLayout, Material Design Components.
 * Arsitektur: AppCompatActivity dan Intent (untuk navigasi).
 * Struktur Data: Data Class (Makanan.kt).
-________________
-
 
 
 ⚙️ Cara Menjalankan Proyek
@@ -47,6 +42,7 @@ Bash
 git clone https://github.com/RadityaRaihan/Food-Order.git
 1. 2. Buka proyek menggunakan Android Studio.
 3. Jalankan aplikasi pada emulator atau perangkat Android fisik.
+
 
 
 

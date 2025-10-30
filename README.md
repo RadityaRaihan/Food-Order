@@ -53,6 +53,7 @@ ________________
 ⚙️ Cara Menjalankan Proyek
 Clone repositori ini:
 Bash
-git clone [LINK_REPOSITORY_ANDA]
+git clone https://github.com/RadityaRaihan/Food-Order.git
 1. 2. Buka proyek menggunakan Android Studio.
 3. Jalankan aplikasi pada emulator atau perangkat Android fisik.
+

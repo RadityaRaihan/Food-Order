@@ -1,2 +1,1 @@
-[﻿# Food-Order](https://github.com/RadityaRaihan/Food-Order/blob/main/app/src/main/res/drawable/gado_gado.webp?raw=true)
 

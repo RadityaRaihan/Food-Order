@@ -1,4 +1,5 @@
 ﻿🍔 Aplikasi Mesen Makanan (Food Order App Prototype)
+ 
 💡 Deskripsi Proyek
 Aplikasi Pemesanan Makanan adalah prototipe sederhana berbasis Android (Kotlin). Proyek ini berfungsi untuk mendemonstrasikan alur dasar pemesanan, mulai dari Activity autentikasi hingga menampilkan daftar menu dinamis dan simulasi checkout.
 Proyek ini menyoroti implementasi RecyclerView untuk daftar menu, BottomNavigationView untuk navigasi utama, dan penanganan resource (gambar dan warna) agar user interface terlihat clean dan fungsional.
@@ -32,22 +33,12 @@ Fitur
 
 
 🚀 Teknologi yang Digunakan
-* Bahasa: Kotlin
+* Bahasa: [Kotlin](https://kotlinlang.org/)
 * UI Komponen: RecyclerView, BottomNavigationView, ConstraintLayout, Material Design Components.
 * Arsitektur: AppCompatActivity dan Intent (untuk navigasi).
 * Struktur Data: Data Class (Makanan.kt).
 ________________
 
-
-📸 Tangkapan Layar Aplikasi
-Pastikan semua gambar di bawah ini sudah Anda upload di folder screenshots/.
-1. Halaman Utama (Home Screen)
-Menampilkan daftar menu dinamis dengan gambar dan Bottom Navigation yang fungsional.
-2. Detail Navigasi Bawah
-Visualisasi Bottom Navigation Bar yang sudah dikoreksi agar ikon dan teks memiliki kontras yang jelas.
-3. Alur Autentikasi
-Titik awal alur pengguna yang menavigasi ke Login atau Register.
-________________
 
 
 ⚙️ Cara Menjalankan Proyek
@@ -56,6 +47,7 @@ Bash
 git clone https://github.com/RadityaRaihan/Food-Order.git
 1. 2. Buka proyek menggunakan Android Studio.
 3. Jalankan aplikasi pada emulator atau perangkat Android fisik.
+
 
 
 

@@ -7,11 +7,11 @@ ________________
 
 🖼️ Tampilan Aplikasi (Alur Pengguna)
 Berikut adalah alur Activity utama yang disimulasikan dalam aplikasi ini:
-* Welcome & Autentikasi: Pengguna memulai dari [SplashActivity]https://github.com/RadityaRaihan/Food-Order/blob/main/assests/SplashActivity.png, dilanjutkan ke AuthSelectionActivity (memilih Login atau Sign Up), yang kemudian menavigasi ke LoginActivity atau RegisterActivity.
-* Daftar Menu (Home): Setelah melewati autentikasi, pengguna masuk ke HomeActivity. Halaman ini menampilkan daftar menu makanan yang dapat di-scroll.
-* Pemesanan: Mengetuk item menu pada RecyclerView akan langsung mengarahkan pengguna ke OrderConfirmationActivity untuk memulai proses pemesanan.
+* Welcome & Autentikasi: Pengguna memulai dari [SplashActivity](https://github.com/RadityaRaihan/Food-Order/blob/main/assests/SplashActivity.png), dilanjutkan ke [AuthSelectionActivity](https://github.com/RadityaRaihan/Food-Order/blob/main/assests/AuthSelectionActivity.png) (memilih Login atau Sign Up), yang kemudian menavigasi ke [LoginActivity](https://github.com/RadityaRaihan/Food-Order/blob/main/assests/LoginActivity.png) atau [RegisterActivity](https://github.com/RadityaRaihan/Food-Order/blob/main/assests/RegisterActivity.png).
+* Daftar Menu (Home): Setelah melewati autentikasi, pengguna masuk ke [HomeActivity](https://github.com/RadityaRaihan/Food-Order/blob/main/assests/HomeActivity.png). Halaman ini menampilkan daftar menu makanan yang dapat di-scroll.
+* Pemesanan: Mengetuk item menu pada RecyclerView akan langsung mengarahkan pengguna ke [OrderConfirmationActivity](https://github.com/RadityaRaihan/Food-Order/blob/main/assests/OrderConfirmationActivity.png) untuk memulai proses pemesanan.
 * Navigasi Utama: HomeActivity dilengkapi dengan BottomNavigationView yang fungsional, menavigasi ke Home, Order, dan Profile.
-* Checkout & Selesai: Alur simulasi dilanjutkan ke ShippingAddressActivity dan diakhiri di SuccessActivity (berdasarkan deklarasi di AndroidManifest.xml).
+* Checkout & Selesai: Alur simulasi dilanjutkan ke [ShippingAddressActivity](https://github.com/RadityaRaihan/Food-Order/blob/main/assests/ShippingAddressActivity.png) dan diakhiri di [SuccessActivity](https://github.com/RadityaRaihan/Food-Order/blob/main/assests/SuccessActivity.png) (berdasarkan deklarasi di AndroidManifest.xml).
 ________________
 
 
@@ -56,6 +56,7 @@ Bash
 git clone https://github.com/RadityaRaihan/Food-Order.git
 1. 2. Buka proyek menggunakan Android Studio.
 3. Jalankan aplikasi pada emulator atau perangkat Android fisik.
+
 
 
 
